@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(0, 162, 195, 1) 100%
+  );
+  font-family: "Roboto Condensed", sans-serif;
+}
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  width: 1280px;
+  height: 100px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  color: #ffffff;
+  background: transparent;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.menu a:hover {
+  background-color: rgb(178, 201, 224);
+  transition: ease-in 0.4s;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+
+.logo {
+  margin-top: -7px;
+}
+.logo h1 {
+  text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34,
+    5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716,
+    2px -15px 20px #451b0e;
+  color: #666;
+}
+
+.imagenabajo img {
+  width: 1350px;
+  height: 200px;
+  position: absolute;
+  border-radius: 40px;
+}
+
+.imagencircular2 {
+  position: relative;
+
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imagencircular2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.encabezado h1 {
+  color: #202c2d;
+  font-size: 60px;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+  text-align: center;
+}
+
+.encabezado h3 {
+  text-align: center;
+  font-size: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(0, 162, 195, 1) 100%
+  );
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.parrafo1 p {
+  max-width: 400px;
+  width: 100%;
+  padding: 1px 1px 1px 1px;
+  margin: auto;
+  border: red 5px dotted;
+  color: white;
+  white-space: normal;
+  border-radius: 60px/20px;
+  text-align: center;
+}
+
+.parrafo2 p {
+  max-width: 400px;
+  width: 100%;
+  padding: 1px 1px 1px 1px;
+  margin-right: 100px;
+  border: red 5px dotted;
+  color: white;
+  white-space: pre-line;
+  border-radius: 60px/20px;
+  text-align: center;
+  margin: auto;
+}
+
+.parrafo25 p {
+  max-width: 400px;
+  width: 100%;
+  padding: 1px 1px 1px 1px;
+  margin-right: 100px;
+  border: red 5px dotted;
+  color: white;
+  white-space: pre-line;
+  border-radius: 60px/20px;
+  text-align: center;
+  margin: auto;
+}
+
+.parrafo3 p {
+  max-width: 400px;
+  width: 100%;
+  padding: 1px 1px 1px 1px;
+  margin-right: 100px;
+  border: red 5px dotted;
+  color: white;
+  white-space: pre-line;
+  border-radius: 60px/20px;
+  text-align: center;
+  margin: auto;
+}
+.git img {
+  width: 35px;
+  height: 35px;
+}
+
+.linked img {
+  width: 35px;
+  height: 35px;
+  box-align: left;
+}
+
+.youtube img {
+  width: 35px;
+  height: 35px;
+  box-align: left;
+}
+.face img {
+  width: 35px;
+  height: 35px;
+  box-align: left;
+}
+
+.mario img {
+  width: 400px;
+  height: 600;
+  position: absolute;
+}
+
+.amigomario img {
+  width: 350px;
+  height: 700px;
+  float: right;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+.descarga {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  background: blue;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px black;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.descarga:hover {
+  background-color: white;
+}
+
+.divisionboton {
+  text-align: center;
+}

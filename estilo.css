@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 20%,
+    rgba(0, 162, 195, 1) 100%
+  );
+  font-family: "Roboto Condensed", sans-serif;
+}
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  width: 1280px;
+  height: 100px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  color: #ffffff;
+  background: transparent;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.menu a:hover {
+  background-color: rgb(178, 201, 224);
+  transition: ease-in 0.4s;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+
+.logo {
+  margin-top: -7px;
+}
+h1 {
+  text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34,
+    5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716,
+    2px -15px 20px #451b0e;
+  color: #666;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  animation: banner 10s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes banner {
+  0%,
+  20% {
+    background-image: url("img1.png");
+  }
+
+  25%,
+  45% {
+    background-image: url("img2.png");
+  }
+
+  50%,
+  70% {
+    background-image: url("img3.png");
+  }
+
+  75%,
+  100% {
+    background-image: url(img4.png);
+  }
+}
+a {
+  color: white;
+}
